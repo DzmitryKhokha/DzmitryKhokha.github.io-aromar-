@@ -1332,9 +1332,25 @@ a {
 }
 
 @media (max-width: 1434px) {
+    .first {
+        padding-left: 0;
+    }
+
+    .first__container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+    }
+
     .first__title {
-        font-size: 64px;
-        line-height: 66px;
+        max-width: 90%;
+    }
+
+    .first__descr {
+        max-width: 90%;
+        font-size: 28px;
+        line-height: 36px;
     }
 
     .story__text-item {
