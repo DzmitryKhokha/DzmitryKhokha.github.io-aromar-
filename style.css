@@ -1335,22 +1335,29 @@ a {
     .first {
         padding-left: 0;
     }
-
+    
+    .first__link {
+      
+    }
+    
     .first__container {
         display: flex;
         flex-flow: column;
-        align-items: center;
-        text-align: center;
+        padding-left: 140px;
+        align-items: left;
+        text-align: left;
     }
 
     .first__title {
         max-width: 90%;
+        font-size: 54px;
+        line-height: 60px;
     }
 
     .first__descr {
         max-width: 90%;
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 22px;
+        line-height: 30px;
     }
 
     .story__text-item {
