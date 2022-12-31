@@ -710,7 +710,7 @@ textarea {
 .first {
     height: 100vh;
     min-height: 640px;
-    background-image: url("/img/first-webp.webp");
+    background-image: url("img/first-webp.webp");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
