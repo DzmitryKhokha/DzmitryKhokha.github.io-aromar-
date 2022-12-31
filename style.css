@@ -1344,13 +1344,13 @@ a {
         display: flex;
         flex-flow: column;
         max-width: 80%;
-        padding-left: 140px;
         align-items: center;
         text-align: center;
     }
 
     .first__title {
         max-width: 90%;
+        padding-top: 50px;
         font-size: 54px;
         line-height: 60px;
     }
