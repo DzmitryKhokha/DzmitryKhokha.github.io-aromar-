@@ -1343,9 +1343,10 @@ a {
     .first__container {
         display: flex;
         flex-flow: column;
+        max-width: 80%;
         padding-left: 140px;
-        align-items: left;
-        text-align: left;
+        align-items: center;
+        text-align: center;
     }
 
     .first__title {
