@@ -1584,7 +1584,43 @@ a {
     .remodeling__item {
         width: 100%;
     }
+    
+    .remodeling__text {
+        position: relative;
+        padding-left: 50px;
+        padding-bottom: 30px;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 24px;
+        transform: none;
+        transition: none;
+        color: var(--white-color);
+    }
 
+    .remodeling__item:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--accent-color);
+        opacity: 0.3;
+        transition: none;
+    }
+
+    .remodeling__item:hover:before {
+        display: none;
+        opacity: 0;
+        transition: none;
+    }
+
+    .remodeling__item:hover .remodeling__text {
+        transform: none;
+        transition: none;
+    }
+
+    
     .grid {
         padding: 10px;
         grid-template-columns: repeat(2, 1fr);
@@ -1721,9 +1757,4 @@ a {
         transition: none;
     }
 
-}
-
-@media (max-width: 390px) {
-
-    
 }
