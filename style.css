@@ -1538,11 +1538,6 @@ a {
 }
 
 @media (max-width: 576px) {
-
-}
-
-@media (max-width: 390px) {
-
     .first__container {
         padding-top: 0;
         padding-bottom: 70px;
@@ -1649,4 +1644,9 @@ a {
     .footer-nav__col {
         padding-bottom: 10px;
     }
+}
+
+@media (max-width: 390px) {
+
+    
 }
